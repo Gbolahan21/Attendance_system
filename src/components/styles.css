@@ -1,0 +1,194 @@
+.App {
+    text-align: center;
+    font-family: "Roboto";
+}
+
+/* navbar content */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 12vh;
+    color: black;
+    background-color: rgb(241, 238, 238);
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.newStyle {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.newStyle:hover {
+    text-decoration: none;
+    color: black;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.hct {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 80%;
+    margin-top: 2px;
+}
+
+/* home page content */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: black;
+}
+
+.testimonial-image {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.copy {
+    padding-top: 30px;
+    font-weight: bold;
+    background-color: rgb(241, 238, 238);
+}
+
+/* lecturer details content */
+
+#example {
+    width: 400px;
+}
+
+#form {
+margin-left: 50%;
+}
+
+/* dashboard details content */
+
+#lec {
+    text-align: center;
+}
+   
+#land {
+    margin-left: -5px;
+    background-color: #2470dc;
+    color: white;
+}
+
+#log {
+    margin-right: 20px;
+    color: white;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 48px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar .nav-link {
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.sidebar .nav-link.active {
+    color: #2470dc;
+}
+
+.navbar-brand {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, .25);
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .navbar-toggler {
+    top: .25rem;
+    right: 1rem;
+}
+
+.navbar .form-control {
+    padding: .75rem 1rem;
+    border-width: 0;
+    border-radius: 0;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+
+#create {
+    margin-top: 50px;
+    height: 700px;
+    display: inline-block;
+    width: 100%;
+}
+
+#register {
+    height: 700px;
+    display: inline-block;
+    width: 100%;
+    margin-top: -200px;
+}
+
+#take {
+    height: 700px;
+    display: inline-block;
+    width: 100%;
+    margin-top: -70px;
+}
+
+#abs {
+    height: 700px;
+    display: inline-block;
+    width: 100%;
+    margin-top: -170px;
+}
+
+#view {
+    height: 300px;
+    display: inline-block;
+    width: 100%;
+    margin-top: -250px;
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+.navbar a:hover {
+    color: grey;
+}
